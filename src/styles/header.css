@@ -1,0 +1,22 @@
+.header {
+    padding: 1rem 1.5rem;
+    background-color: var(--primary-color);
+}
+#open-sidebar {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: fit-content;
+    border-radius: 30px;
+    gap: 10px;
+    height: 100%;
+    transform-origin: center;
+    -webkit-tap-highlight-color: transparent;
+}
+#open-sidebar > div {
+    width: 40px;
+    height: 4px;
+    border-radius: 30px;
+    background-color: white;
+}

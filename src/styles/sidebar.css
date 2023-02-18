@@ -1,0 +1,47 @@
+.sidebar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(3, 7, 26, 0.8);
+    backdrop-filter: blur(10px);
+    transition: 0.45s ease;
+    z-index: 5;
+}
+
+.sidebar.hidden {
+    transform: translate(-100vw, 0);
+    opacity: 0;
+    transition: 0.45s ease;
+}
+
+.link {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+.hide-sidebar {
+    padding: 1.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: fit-content;
+    border-radius: 30px;
+    gap: 10px;
+    transform-origin: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.hide-sidebar > div {
+    width: 40px;
+    height: 4px;
+    border-radius: 30px;
+    background-color: white;
+}

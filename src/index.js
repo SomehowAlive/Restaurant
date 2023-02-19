@@ -2,7 +2,6 @@ import "./styles/style.css";
 import Header from "./header.js";
 import Home from "./home.js";
 import Sidebar from "./sidebar.js";
-import Menu from "./menu.js";
 
 const content = document.createElement("div");
 content.setAttribute("id", "content");

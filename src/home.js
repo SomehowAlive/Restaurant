@@ -23,6 +23,7 @@ export default function home() {
 
 function showHome() {
     document.querySelector(".menu-container")?.remove();
+    document.querySelector(".about-container")?.remove();
     document.querySelector("#content").appendChild(home());
 }
 

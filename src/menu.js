@@ -87,7 +87,7 @@ function createCard(obj) {
     price.textContent = obj.price;
 
     card.style.backgroundColor = obj.bgColor;
-    card.style.boxShadow = `0 0 45px -10px ${obj.bgColor}`;
+    card.style.boxShadow = `0 0 30px -5px ${obj.bgColor}`;
     card.style.color = obj.txtColor;
     price.style.color = obj.txtColor;
 
@@ -103,7 +103,7 @@ function createCard(obj) {
 
 function showMenu(foodType = "starter") {
     document.querySelector(".hero-container")?.remove();
-    document.querySelector(".menu-container")?.remove();
+    document.querySelector(".about-container")?.remove();
     document.querySelector("#content").appendChild(menu(foodType));
 }
 

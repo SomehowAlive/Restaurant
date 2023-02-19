@@ -1,6 +1,7 @@
 import "./styles/sidebar.css";
 import { showMenu } from "./menu";
 import { showHome } from "./home";
+import { showAbout } from "./about";
 export default function sidebar() {
     const sideBar = document.createElement("div");
     const hideSideBarBtn = document.createElement("a");
@@ -32,6 +33,11 @@ export default function sidebar() {
 
     menuLink.onclick = () => {
         showMenu();
+        hideSidebar();
+    };
+
+    aboutLink.onclick = () => {
+        showAbout();
         hideSidebar();
     };
 

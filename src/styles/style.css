@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-    --primary-color: #1093df;
+    --primary-color: #0090bb;
     --overlay-color: rgb(6, 13, 43);
 }
 
@@ -17,6 +17,19 @@ img {
 
 a {
     text-decoration: none;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 2rem;
 }
 
 #content {

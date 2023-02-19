@@ -1,0 +1,198 @@
+[
+    {
+        "name": "salad",
+        "ingredients": [
+            "lettuce",
+            "cherry tomatoes",
+            "pepperoncini",
+            "parmesan",
+            "cucumber"
+        ],
+        "pic": "salad.png",
+        "price": "1.99$",
+        "txtColor": "#292E02",
+        "bgColor": "#DDE87D",
+        "type": "starter"
+    },
+    {
+        "name": "soup",
+        "ingredients": [
+            "green beans",
+            "carrots",
+            "tomatoes",
+            "cabbage",
+            "onion",
+            "celery"
+        ],
+        "pic": "soup.png",
+        "price": "2.39$",
+        "txtColor": "#CA9B6F",
+        "bgColor": "#EC7923",
+        "type": "starter"
+    },
+    {
+        "name": "Grilled Chicken",
+        "ingredients": [
+            "skinless chicken breasts",
+            "olive oil",
+            "garlic",
+            "salt",
+            "lemon"
+        ],
+        "pic": "grilled-chicken.png",
+        "price": "7.49$",
+        "txtColor": "#B1611E",
+        "bgColor": "#EEC7A7",
+        "type": "dish"
+    },
+    {
+        "name": "Baked Lemon Garlic Salmon",
+        "ingredients": [
+            "salmon fillet",
+            "virgin olive oil",
+            "salt",
+            "pepper",
+            "Parsley"
+        ],
+        "pic": "garlic-salmon.png",
+        "price": "4.69$",
+        "txtColor": "#372308",
+        "bgColor": "#FB8A08",
+        "type": "dish"
+    },
+    {
+        "name": "Garlic Shrimp Linguine",
+        "ingredients": [
+            "linguine",
+            "shrimp",
+            "garlic",
+            "olive oil",
+            "red pepper flakes"
+        ],
+        "pic": "garlic-shrimp.png",
+        "price": "3.44$",
+        "txtColor": "#365808",
+        "bgColor": "#A8BE8B",
+        "type": "dish"
+    },
+    {
+        "name": "Beef Stroganoff",
+        "ingredients": [
+            "beef sirloin",
+            "onion",
+            "garlic",
+            "mushrooms",
+            "beef broth"
+        ],
+        "pic": "beef-stroganoff.png",
+        "price": "2.89$",
+        "txtColor": "#886D0C",
+        "bgColor": "#F5DD94",
+        "type": "dish"
+    },
+    {
+        "name": "Vegetarian Stir Fry",
+        "ingredients": [
+            "tofu",
+            "red bell pepper",
+            "green bell pepper",
+            "onion",
+            "soy sauce"
+        ],
+        "pic": "stir-fry.png",
+        "price": "3.29$",
+        "txtColor": "#587D10",
+        "bgColor": "#FFE3A4",
+        "type": "dish"
+    },
+    {
+        "name": "Chicken Fajitas",
+        "ingredients": [
+            "chicken breast",
+            "red bell pepper",
+            "green bell pepper",
+            "onion",
+            "fajita seasoning"
+        ],
+        "pic": "fajitas.png",
+        "price": "3.99$",
+        "txtColor": "#280D07",
+        "bgColor": "#EC4E1D",
+        "type": "dish"
+    },
+    {
+        "name": "Chocolate Mousse",
+        "ingredients": [
+            "bittersweet chocolate",
+            "unsalted butter",
+            "heavy cream",
+            "egg whites",
+            "sugar"
+        ],
+        "pic": "mousse.png",
+        "price": "1.99$",
+        "txtColor": "#461C17",
+        "bgColor": "#F9B298",
+        "type": "dessert"
+    },
+    {
+        "name": "Lemon Tart",
+        "ingredients": [
+            "all-purpose flour",
+            "unsalted butter",
+            "sugar",
+            "lemon juice",
+            "eggs"
+        ],
+        "pic": "lemon-tart.png",
+        "price": "0.88$",
+        "txtColor": "#894500",
+        "bgColor": "#EEF151",
+        "type": "dessert"
+    },
+    {
+        "name": "Tiramisu",
+        "ingredients": [
+            "espresso",
+            "ladyfingers",
+            "Mascarpone cheese",
+            "heavy cream",
+            "cocoa powder"
+        ],
+        "pic": "tiramisu.png",
+        "price": "1.39$",
+        "txtColor": "#642B14",
+        "bgColor": "#F0E7D7",
+        "type": "dessert"
+    },
+    {
+        "name": "Crème brûlée",
+        "ingredients": [
+            "heavy cream",
+            "egg yolks",
+            "Granulated sugar",
+            "vanilla bean",
+            "brown sugaar"
+        ],
+        "pic": "creme-brulee.png",
+        "price": "0.88$",
+        "txtColor": "#54170A",
+        "bgColor": "#F1BB6A",
+        "type": "dessert"
+    },
+    {
+        "name": "Fruit Salad",
+        "ingredients": [
+            "strawberries",
+            "blueberries",
+            "kiwi",
+            "honeydew melon",
+            "mint leaves"
+        ],
+        "pic": "fruit-salad.png",
+        "price": "1.49$",
+        "txtColor": "#332B2C",
+        "bgColor": "#FF9A94",
+        "type": "dessert"
+    }
+]

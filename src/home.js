@@ -1,4 +1,5 @@
 import "./styles/home.css";
+import { showMenu } from "./menu";
 
 export default function home() {
     const heroContainer = document.createElement("div");
@@ -11,6 +12,9 @@ export default function home() {
     const herobtn = document.createElement("button");
     herobtn.textContent = "";
     herobtn.classList.add("hero-btn");
+    herobtn.onclick = () => {
+        showMenu();
+    };
     heroBtnCont.appendChild(herobtn);
     heroContainer.appendChild(heroText);
     heroContainer.appendChild(heroBtnCont);

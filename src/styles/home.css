@@ -28,6 +28,7 @@
 }
 
 .hero-btn {
+    cursor: pointer;
     display: inline-block;
     border: solid white;
     border-width: 0 5px 5px 0;
@@ -36,12 +37,7 @@
     background-color: transparent;
 }
 
-@keyframes anim {
-    from,
-    to {
-        transform: none;
-    }
-    50% {
-        transform: scale(1.1);
-    }
+.hero-btn-cont:hover {
+    transition: 0.4s ease;
+    transform: scale(1.1);
 }

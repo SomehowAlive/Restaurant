@@ -12,7 +12,7 @@ export default function sidebar() {
     sideBar.classList.add("sidebar");
     sideBar.classList.add("hidden");
     hideSideBarBtn.classList.add("hide-sidebar");
-    homeLink.classList.add("link", "selected");
+    homeLink.classList.add("link", "active");
     menuLink.classList.add("link");
     aboutLink.classList.add("link");
 
@@ -28,16 +28,25 @@ export default function sidebar() {
 
     homeLink.onclick = () => {
         showHome();
+        homeLink.classList.add("active");
+        menuLink.classList.remove("active");
+        aboutLink.classList.remove("active");
         hideSidebar();
     };
 
     menuLink.onclick = () => {
         showMenu();
+        menuLink.classList.add("active");
+        homeLink.classList.remove("active");
+        aboutLink.classList.remove("active");
         hideSidebar();
     };
 
     aboutLink.onclick = () => {
         showAbout();
+        aboutLink.classList.add("active");
+        homeLink.classList.remove("active");
+        menuLink.classList.remove("active");
         hideSidebar();
     };
 

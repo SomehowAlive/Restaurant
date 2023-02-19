@@ -20,3 +20,10 @@ export default function home() {
     heroContainer.appendChild(heroBtnCont);
     return heroContainer;
 }
+
+function showHome() {
+    document.querySelector(".menu-container")?.remove();
+    document.querySelector("#content").appendChild(home());
+}
+
+export { showHome };

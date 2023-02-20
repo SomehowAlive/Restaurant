@@ -49,7 +49,8 @@
 
 .food-list {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     overflow-x: scroll;
     width: 100%;
@@ -116,4 +117,19 @@
     width: fit-content;
     background-color: white;
     border-radius: 30px;
+}
+
+@media (min-width: 800px) {
+    .food-list {
+        padding: 4rem;
+        flex-wrap: wrap;
+        overflow: auto;
+        justify-content: center;
+    }
+    .food-card:hover {
+        scale: 1.1;
+    }
+    .menu-container {
+        height: auto;
+    }
 }

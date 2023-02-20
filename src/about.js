@@ -10,6 +10,8 @@ export default function about() {
     const chefName = document.createElement("p");
     const chefImg = new Image();
     const chefBio = document.createElement("p");
+    const aboutDiv = document.createElement("div");
+    const chefsDiv = document.createElement("div");
 
     aboutContainer.classList.add("about-container");
     aboutTitle.classList.add("about-title", "title");
@@ -40,10 +42,14 @@ export default function about() {
     chefCard.appendChild(chefName);
     chefCard.appendChild(chefBio);
 
-    aboutContainer.appendChild(aboutTitle);
-    aboutContainer.appendChild(aboutCard);
-    aboutContainer.appendChild(chefsTitle);
-    aboutContainer.appendChild(chefCard);
+    aboutDiv.appendChild(aboutTitle);
+    aboutDiv.appendChild(aboutCard);
+
+    chefsDiv.appendChild(chefsTitle);
+    chefsDiv.appendChild(chefCard);
+
+    aboutContainer.appendChild(aboutDiv);
+    aboutContainer.appendChild(chefsDiv);
 
     return aboutContainer;
 }

@@ -46,7 +46,7 @@ export default function header() {
     return header;
 }
 
-function setActiveLink(txt) {
+export function setActiveLink(txt) {
     document.querySelectorAll(".header-link").forEach((link) => {
         if (link.textContent === txt) link.classList.add("active");
         else link.classList.remove("active");

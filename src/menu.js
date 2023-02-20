@@ -1,4 +1,5 @@
 import foods from "./assets/food.json";
+import { setActiveLink } from "./header";
 import "./styles/menu.css";
 import food1 from "./assets/food1.png";
 import food2 from "./assets/food2.png";
@@ -42,7 +43,7 @@ export default function menu(foodType = "starter") {
 
     starterBtn.onclick = () => {
         dessertBtn.classList.remove("selected");
-        dessertBtn.classList.remove("selected");
+        dishBtn.classList.remove("selected");
         starterBtn.classList.add("selected");
         showFood("starter");
     };
@@ -122,6 +123,7 @@ function showMenu(foodType = "starter") {
     document.querySelector(".about-container")?.remove();
     document.querySelector(".menu-container")?.remove();
     document.querySelector("#content").appendChild(menu(foodType));
+    setActiveLink("MENU");
 }
 
 function showFood(foodType) {

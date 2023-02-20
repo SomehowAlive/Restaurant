@@ -1,5 +1,7 @@
 import "./styles/home.css";
 import { showMenu } from "./menu";
+import { setActiveLink } from "./header";
+import { setActiveLink as sidebarActiveLink } from "./sidebar";
 
 export default function home() {
     const heroContainer = document.createElement("div");
@@ -12,6 +14,8 @@ export default function home() {
     heroBtn.textContent = "⟶";
     heroBtn.classList.add("hero-btn");
     heroBtn.onclick = () => {
+        setActiveLink("MENU");
+        sidebarActiveLink("MENU");
         showMenu();
     };
     heroContainer.appendChild(heroText);

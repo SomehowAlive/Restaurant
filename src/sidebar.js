@@ -67,4 +67,4 @@ function setActiveLink(txt) {
     });
 }
 
-export { sidebar, showSidebar, hideSidebar };
+export { sidebar, showSidebar, hideSidebar, setActiveLink };

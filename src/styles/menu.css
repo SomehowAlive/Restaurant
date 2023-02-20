@@ -3,18 +3,17 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    animation: f 0.4s ease forwards;
+    transform-origin: top;
+    animation: f 0.6s ease forwards;
 }
 
 @keyframes f {
     from {
-        transform: scale(0);
-        filter: opacity(0);
+        transform: scale(0) translate(0, -100vw);
         opacity: 0;
     }
     to {
-        transform: none;
-        filter: none;
+        transform: scale(1) translate(0, 0);
         opacity: 1;
     }
 }
@@ -72,20 +71,17 @@
     box-shadow: 0 0 0 0;
     scroll-snap-align: center;
     transform-origin: center;
-    animation: appear 0.5s ease forwards;
+    animation: appear 0.6s ease forwards;
     transition: 0.4s ease;
-    transition: box-shadow 0.5s ease;
 }
 
 @keyframes appear {
     from {
         transform: scaleX(0);
-        filter: blur(40px);
         opacity: 0;
     }
     to {
-        filter: none;
-        transform: none;
+        transform: scaleX(1);
         opacity: 1;
     }
 }
@@ -127,7 +123,11 @@
         overflow: auto;
         justify-content: center;
     }
+    .food-card {
+        transition: 0.4s ease;
+    }
     .food-card:hover {
+        transition: 0.4s ease;
         scale: 1.1;
     }
     .menu-container {

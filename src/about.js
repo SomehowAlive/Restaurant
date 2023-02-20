@@ -57,6 +57,7 @@ export default function about() {
 function showAbout() {
     document.querySelector(".hero-container")?.remove();
     document.querySelector(".menu-container")?.remove();
+    document.querySelector(".about-container")?.remove();
     document.querySelector("#content").appendChild(about());
 }
 

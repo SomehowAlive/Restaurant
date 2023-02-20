@@ -104,6 +104,7 @@ function createCard(obj) {
 function showMenu(foodType = "starter") {
     document.querySelector(".hero-container")?.remove();
     document.querySelector(".about-container")?.remove();
+    document.querySelector(".menu-container")?.remove();
     document.querySelector("#content").appendChild(menu(foodType));
 }
 

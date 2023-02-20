@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fenix&display=swap");
+
 :root {
     --primary-color: #0090bb;
     --overlay-color: rgb(6, 13, 43);
@@ -34,7 +36,7 @@ li {
 
 #content {
     height: 100vh;
-    background: linear-gradient(rgba(6, 13, 43, 0.7), rgba(6, 13, 43, 0.7)), url("../assets/bg.webp");
+    background: linear-gradient(rgba(6, 13, 43, 0.7), rgba(6, 13, 43, 0.7)), url("../assets/bg.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

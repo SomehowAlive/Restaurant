@@ -15,21 +15,16 @@ export default function header() {
     aboutLink.textContent = "ABOUT";
 
     homeLink.onclick = () => {
-        homeLink.classList.add("active");
-        menuLink.classList.remove("active");
-        aboutLink.classList.remove("active");
+        setActiveLink("HOME");
+
         showHome();
     };
     menuLink.onclick = () => {
-        homeLink.classList.remove("active");
-        menuLink.classList.add("active");
-        aboutLink.classList.remove("active");
+        setActiveLink("MENU");
         showMenu();
     };
     aboutLink.onclick = () => {
-        homeLink.classList.remove("active");
-        menuLink.classList.remove("active");
-        aboutLink.classList.add("active");
+        setActiveLink("ABOUT");
         showAbout();
     };
 
@@ -49,4 +44,11 @@ export default function header() {
     header.appendChild(menuLink);
     header.appendChild(aboutLink);
     return header;
+}
+
+function setActiveLink(txt) {
+    document.querySelectorAll(".header-link").forEach((link) => {
+        if (link.textContent === txt) link.classList.add("active");
+        else link.classList.remove("active");
+    });
 }

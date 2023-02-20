@@ -12,9 +12,9 @@ export default function sidebar() {
     sideBar.classList.add("sidebar");
     sideBar.classList.add("hidden");
     hideSideBarBtn.classList.add("hide-sidebar");
-    homeLink.classList.add("link", "active");
-    menuLink.classList.add("link");
-    aboutLink.classList.add("link");
+    homeLink.classList.add("sidebar-link", "active");
+    menuLink.classList.add("sidebar-link");
+    aboutLink.classList.add("sidebar-link");
 
     hideSideBarBtn.appendChild(document.createElement("div"));
     hideSideBarBtn.appendChild(document.createElement("div"));
@@ -27,26 +27,20 @@ export default function sidebar() {
     aboutLink.textContent = "ABOUT";
 
     homeLink.onclick = () => {
+        setActiveLink("HOME");
         showHome();
-        homeLink.classList.add("active");
-        menuLink.classList.remove("active");
-        aboutLink.classList.remove("active");
         hideSidebar();
     };
 
     menuLink.onclick = () => {
+        setActiveLink("MENU");
         showMenu();
-        menuLink.classList.add("active");
-        homeLink.classList.remove("active");
-        aboutLink.classList.remove("active");
         hideSidebar();
     };
 
     aboutLink.onclick = () => {
+        setActiveLink("ABOUT");
         showAbout();
-        aboutLink.classList.add("active");
-        homeLink.classList.remove("active");
-        menuLink.classList.remove("active");
         hideSidebar();
     };
 
@@ -64,6 +58,13 @@ function showSidebar() {
 
 function hideSidebar() {
     document.querySelector(".sidebar").classList.add("hidden");
+}
+
+function setActiveLink(txt) {
+    document.querySelectorAll(".sidebar-link").forEach((link) => {
+        if (link.textContent === txt) link.classList.add("active");
+        else link.classList.remove("active");
+    });
 }
 
 export { sidebar, showSidebar, hideSidebar };

@@ -8,11 +8,11 @@
             "parmesan",
             "cucumber"
         ],
-        "pic": "salad.png",
         "price": "1.99$",
         "txtColor": "#292E02",
         "bgColor": "#DDE87D",
-        "type": "starter"
+        "type": "starter",
+        "index": 1
     },
     {
         "name": "soup",
@@ -24,11 +24,11 @@
             "onion",
             "celery"
         ],
-        "pic": "soup.png",
         "price": "2.39$",
         "txtColor": "#B22323",
         "bgColor": "#EDC111",
-        "type": "starter"
+        "type": "starter",
+        "index": 2
     },
     {
         "name": "Grilled Chicken",
@@ -39,11 +39,11 @@
             "salt",
             "lemon"
         ],
-        "pic": "grilled-chicken.png",
         "price": "7.49$",
         "txtColor": "#B1611E",
         "bgColor": "#EEC7A7",
-        "type": "dish"
+        "type": "dish",
+        "index": 3
     },
     {
         "name": "Baked Lemon Garlic Salmon",
@@ -54,11 +54,11 @@
             "pepper",
             "Parsley"
         ],
-        "pic": "garlic-salmon.png",
         "price": "4.69$",
         "txtColor": "#372308",
         "bgColor": "#FB8A08",
-        "type": "dish"
+        "type": "dish",
+        "index": 4
     },
     {
         "name": "Garlic Shrimp Linguine",
@@ -69,11 +69,11 @@
             "olive oil",
             "red pepper flakes"
         ],
-        "pic": "garlic-shrimp.png",
         "price": "3.44$",
         "txtColor": "#365808",
         "bgColor": "#A8BE8B",
-        "type": "dish"
+        "type": "dish",
+        "index": 5
     },
     {
         "name": "Beef Stroganoff",
@@ -84,11 +84,11 @@
             "mushrooms",
             "beef broth"
         ],
-        "pic": "beef-stroganoff.png",
         "price": "2.89$",
         "txtColor": "#886D0C",
         "bgColor": "#F5DD94",
-        "type": "dish"
+        "type": "dish",
+        "index": 6
     },
     {
         "name": "Vegetarian Stir Fry",
@@ -99,11 +99,11 @@
             "onion",
             "soy sauce"
         ],
-        "pic": "stir-fry.png",
         "price": "3.29$",
         "txtColor": "#587D10",
         "bgColor": "#FFE3A4",
-        "type": "dish"
+        "type": "dish",
+        "index": 7
     },
     {
         "name": "Chicken Fajitas",
@@ -114,11 +114,11 @@
             "onion",
             "fajita seasoning"
         ],
-        "pic": "fajitas.png",
         "price": "3.99$",
         "txtColor": "#280D07",
         "bgColor": "#EC4E1D",
-        "type": "dish"
+        "type": "dish",
+        "index": 8
     },
     {
         "name": "Chocolate Mousse",
@@ -129,11 +129,11 @@
             "egg whites",
             "sugar"
         ],
-        "pic": "mousse.png",
         "price": "1.99$",
         "txtColor": "#461C17",
         "bgColor": "#F9B298",
-        "type": "dessert"
+        "type": "dessert",
+        "index": 9
     },
     {
         "name": "Lemon Tart",
@@ -144,11 +144,11 @@
             "lemon juice",
             "eggs"
         ],
-        "pic": "lemon-tart.png",
         "price": "0.88$",
         "txtColor": "#894500",
         "bgColor": "#EEF151",
-        "type": "dessert"
+        "type": "dessert",
+        "index": 10
     },
     {
         "name": "Tiramisu",
@@ -159,11 +159,11 @@
             "heavy cream",
             "cocoa powder"
         ],
-        "pic": "tiramisu.png",
         "price": "1.39$",
         "txtColor": "#642B14",
         "bgColor": "#F0E7D7",
-        "type": "dessert"
+        "type": "dessert",
+        "index": 11
     },
     {
         "name": "Crème brûlée",
@@ -174,11 +174,11 @@
             "vanilla bean",
             "brown sugaar"
         ],
-        "pic": "creme-brulee.png",
         "price": "0.88$",
         "txtColor": "#54170A",
         "bgColor": "#F1BB6A",
-        "type": "dessert"
+        "type": "dessert",
+        "index": 12
     },
     {
         "name": "Fruit Salad",
@@ -189,10 +189,10 @@
             "honeydew melon",
             "mint leaves"
         ],
-        "pic": "fruit-salad.png",
         "price": "1.49$",
         "txtColor": "#332B2C",
         "bgColor": "#FF9A94",
-        "type": "dessert"
+        "type": "dessert",
+        "index": 13
     }
 ]
